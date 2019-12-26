@@ -1,0 +1,182 @@
+[
+	{
+		"title": "Name",
+		"id": "name-findName",
+		"parentAction": "name",
+		"action": "findName"
+	},
+	{
+		"title": "Email",
+		"id": "internet-email",
+		"parentAction": "internet",
+		"action": "email"
+	},
+	{
+		"title": "Address",
+		"id": "address",
+		"children": [
+		  {
+			"title": "Zip Code",
+			"id": "address-zipCode",
+			"parentAction": "address",
+			"action": "zipCode"
+		  },
+		  {
+			"title": "City",
+			"id": "address-city",
+			"parentAction": "address",
+			"action": "city"
+		  },
+		  {
+			"title": "City Prefix",
+			"id": "address-cityPrefix",
+			"parentAction": "address",
+			"action": "cityPrefix"
+		  },
+		  {
+			"title": "City Suffix",
+			"id": "address-citySuffix",
+			"parentAction": "address",
+			"action": "citySuffix"
+		  },
+		  {
+			"title": "Street Name",
+			"id": "address-streetName",
+			"parentAction": "address",
+			"action": "streetName"
+		  },
+		  {
+			"title": "Street Address",
+			"id": "address-streetAddress",
+			"parentAction": "address",
+			"action": "streetAddress"
+		  },
+		  {
+			"title": "Street Suffix",
+			"id": "address-streetSuffix",
+			"parentAction": "address",
+			"action": "streetSuffix"
+		  },
+		  {
+			"title": "Street Prefix",
+			"id": "address-streetPrefix",
+			"parentAction": "address",
+			"action": "streetPrefix"
+		  },
+		  {
+			"title": "Secondary Address",
+			"id": "address-secondaryAddress",
+			"parentAction": "address",
+			"action": "secondaryAddress"
+		  },
+		  {
+			"title": "Country",
+			"id": "address-county",
+			"parentAction": "address",
+			"action": "county"
+		  },
+		  {
+			"title": "Country Code",
+			"id": "address-countryCode",
+			"parentAction": "address",
+			"action": "countryCode"
+		  },
+		  {
+			"title": "State",
+			"id": "address-state",
+			"parentAction": "address",
+			"action": "state"
+		  },
+		  {
+			"title": "State Abbr",
+			"id": "address-stateAbbr",
+			"parentAction": "address",
+			"action": "stateAbbr"
+		  },
+		  {
+			"title": "Latitude",
+			"id": "address-latitude",
+			"parentAction": "address",
+			"action": "latitude"
+		  },
+		  {
+			"title": "Longitude",
+			"id": "address-longitude",
+			"parentAction": "address",
+			"action": "longitude"
+		  }
+		]
+	  },
+	  {
+		"title": "Company",
+		"id": "company",
+		"children": [
+		  {
+			"title": "Company Name",
+			"id": "company-companyName",
+			"parentAction": "company",
+			"action": "companyName"
+		  },
+		  {
+			"title": "Company Suffix",
+			"id": "company-companySuffix",
+			"parentAction": "company",
+			"action": "companySuffix"
+		  }
+		]
+	},
+	{
+		"title": "Date",
+		"id": "date",
+		"children": [
+		  {
+			"title": "Month",
+			"id": "date-month",
+			"parentAction": "date",
+			"action": "month"
+		  },
+		  {
+			"title": "Weekday",
+			"id": "date-weekday",
+			"parentAction": "date",
+			"action": "weekday"
+		  }
+		]
+	},
+	{
+		"title": "Phone",
+		"id": "phone",
+		"children": [
+		  {
+			"title": "Phone Number",
+			"id": "phone-phoneNumber",
+			"parentAction": "phone",
+			"action": "phoneNumber"
+		  },
+		  {
+			"title": "Phone Number Format",
+			"id": "phone-phoneNumberFormat",
+			"parentAction": "phone",
+			"action": "phoneNumberFormat"
+		  },
+		  {
+			"title": "Phone Formats",
+			"id": "phone-phoneFormats",
+			"parentAction": "phone",
+			"action": "phoneFormats"
+		  }
+		]
+	},
+	{
+        "title": "Number",
+        "id": "random-number",
+        "parentAction": "random",
+        "action": "number"
+	},
+	{
+		"title": "Word",
+        "id": "random-word",
+        "parentAction": "random",
+        "action": "word"
+	}
+]

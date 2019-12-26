@@ -1,0 +1,31 @@
+ {
+    "name": "Auto Form Filler",
+    "version": "1.0",
+    "description": "Extension to auto fill forms for Easy Web ATS",
+    "permissions": ["declarativeContent", "activeTab", "contextMenus"],
+    "background": {
+      "scripts": ["background.js", "libs/faker.min.js"],
+      "persistent": false
+    },
+    "page_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+      	"32": "images/favicon-32x32.png"
+      }
+    },
+    "content_scripts": [
+      {
+        "matches": [
+          "http://*/*",
+          "https://*/*"
+        ],
+        "js": [
+          "contentScript.js"
+        ]
+      }
+    ],
+    "icons": {
+    	"32": "images/favicon-32x32.png"
+    },
+    "manifest_version": 2
+  }
